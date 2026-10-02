@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleoptimizer",
+  "version": "${version}",
+  "name": "Optimizator gg v22",
+  "description": "Disables clouds, smooth lighting, and reduces particles. Optimized for PojavLauncher.",
+  "authors": ["islamovimam42-cmyk"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.optimizer.SimpleOptimizer"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
